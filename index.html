@@ -1,400 +1,286 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Dimension by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website HTML CSS Javascript | Codehal</title>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Tinodiwanashe Nguruve</h1>
-								<p>I identify as a Computer Scientist who loves writing code for the advancement of the society. I'm excited by fast and emerging technologies. I study Computer Science and Mathematics at Bryn Mawr College.
-									 <a href="https://html5up.net/license">Creative Commons</a> license.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Recent</a></li>
-								<li><a href="#work">Volunteer </a></li>
-								<li><a href="#about">Projects</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+    <link rel="stylesheet" href="css/style.css">
 
-				<!-- Main -->
-					<div id="main">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Bryn Mawr College</h2>
-								
-									<h3>Digital Technology Intern </h3>                                                                                                                                                                                                                                       
-									<p>-Managed the content creation of the history of Bryn Mawr College in the 1900s from ideation to deployment using Omeka's content management tools including helping archival researchers  curate what they want and locate relative plugins.</p>
-									<p>-Wrote code customizing the research site/theme using JavaScript, Html and CSS to satisfy project requirements.</p>
-									<p>-Identified roadblocks pertaining to the team’s mini projects and communicated these to the Content Management team and  respective Managers.</p>
-									<p>-Cleaned the research data by using text analysis tools like voyant and data refining tools and created data <a href="http://digitalscholarship.brynmawr.edu/24-31/exhibits/show/1924-conference/education">visualization </a>using Tableau</p>
+<body>
 
-							</article>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">TINO.<span class="animate" style="--i:1;"></span></a>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Summer in Ghana</h2>
-								<span class="image main"><img src="/Users/tinodiwanashenguruve/Downloads/html5up-dimension/images/IMG_1848_2.jpg" alt="" /></span>
-								<h3>Summary of program</h3>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
 
-									<p>The goals of the program was to  Introduce basic practical computer knowledge to all students in the Dalun Community including any member of the community who wished to learn more about the use of Computers. Since the schools in Dalun teach the theoretical aspect of ICT. My teammate and i aimed at reinforcing the lessons taught by using computers. Our last goal was to create a website to help people learn more about the only ICT centre in Dalun and have updates on events at the centre. 
-									</p>
-									<h4>Structure of internship: </h4>
-									
-										<p>The (Information Communication and Technology) ICT internship's responsibilities included  coordinating and maintaining the equipments and computers of the ICT centre. I prepared for lessons in the morning by getting materials and computers up and running for a smooth operation of the centre.
-										My teammate and i started our internship by visiting schools in the Dalun Community. We informed them that the centre was going to offer free introduction to computer skills  and the students were invited given that they do Computer theory lessons at their schools.  We required the schools to bring 18 Students to the centre because the centre only has 18 Desktop computers. 
-										</p>
-									<h5>Accomplishments:	</h4>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Volunteer</a>
+            <a href="#skills">Projects</a>
+            <a href="#contact">Contact</a>
 
-									<p>I managed to help introduce basic computer skills to over 500 students in the community in 7 weeks making the students in the Dalun Community of Ghana computer literate. I hosted a workshop on 22nd of July 2019 for the students and the workshop included learning about the Microsoft tools, and public speaking. The objective of the showcase was to impact the children to think more about computers and solidify the lessons they learnt through out the program. The other objective was to encourage them to learn and practice the use of Computers.
-								</p>	 
-								
-								</article>
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
 
-						<!-- About -->
-							<article id="about">
-								<h1 class="major">About</h1>
-								<h2>Google Applied Computer Science skills</h2>
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Tinodiwanashe Nguruve</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Software Engineer</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Welcome to my portfolio! <span class="animate" style="--i:4;"></span>
+            </p>
 
-<p>As our final project for the Google J-Term / Applied CS program, we decided to create an app to facilitate Bryn Mawr students' requests for Lantern Van rides around campus and select off-campus locations. The Lantern Van is a service where a student driver will pick students up and drop them off at desired locations.
-    Our final project supports functionality for choosing pickup and dropoff locations, and for displaying both locations on the map.</p>
+            <div class="btn-box">
+                <a href="#about" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
 
-<h3>Inspiration & Objectives</h3>
+        <div class="home-sci">
+    
+            <a href="https://www.linkedin.com/in/tinodiwanashe-nguruve/"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
 
-<p>When Bryn Mawr students call to request a ride, they usually have to wait a long time, do not know where the Lantern Van is, and find it to be an inconvenient process.
- By creating Lantern Request, we wanted to create an app where students can request rides more conveniently, get real-time updates of where the Lantern Van is, how long they have to wait before the Lantern Van to arrives at their pickup location, and add multiple pickup and dropoff locations.</p>
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
 
-<h3>Challenges</h3>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
 
-<p>Since we are a team of four students, we decided to do some pair programming. The dropdown menus for the current default page of the app on one screen and being able to store the pickup and dropoff locations was on one computer, which was to be merged with the code for setting the markers for the selected pickup and dropoff locations on the map using the Google Maps API. There were some subtle differences in some of the project files on the two computers, so merging took much more time than originally anticipated to stop the app from crashing.
-A challenge that was much easier to be resolved was figuring out how to implement the Google Maps API. While we were originally using a MapView object in Android Studio, we found, through the documentation, that using a GoogleMap object and an API key would help us display the map we wanted on the screen.
-A challenge we hoped to resolve was being able to support ride requests with multiple passengers. Since the Lantern Van can hold up to four passengers, we would have liked to have the user be able to specify the number of passengers for their ride instead of defaulting to one passenger per request.</p>
+        <div class="about-img">
+            <img src="images/pic2.jpg" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
 
-<h3>Next Steps</h3>
+        <div class="about-content">
+            <h3>Software Engineer | Product Manager<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>
+                I am an individual with a newly found passion for Artificial Intelligence (AI) and Machine Learning (ML), 
+                currently immersed in the exciting journey of learning and mastering these cutting-edge technologies. My unique blend of skills and experiences positions me to craft impactful solutions that address real-world challenges.
+                My educational foundation includes a BA Honors in Mathematics and Computer Science from Bryn Mawr College, a testament to my dedication and commitment to academic excellence. 
+                 
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
 
-<p>-Enhance the app so that a single request can be made for 1, 2, 3, or 4 passengers. Manage time slots and figure out a more realistic waiting time. Adjust the size of the map for a better UI experience. Make an iOS version of the app. Make the app available for download via the Apple App Store and Google Play Store.</p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2023 - now</div>
+                        <h3>Computer Science TA - Microsoft Teals</h3>
+                        <p>
+                        <li>Teach High School students computer science skills</li>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- <div class="education-box"> -->
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022-2023</div>
+                            <h3>Product Manager - Microsoft, Redmond, WA </h3>
+                            <p>  <li>Drove the adoption of deployable branches in IDNA teams, ensuring secure deployment.</li>
+                                <li>Led communication and program requirements for the adoption of deployable branches.</li>
+                            <li>Developed and launched a custom dashboard for engineering managers using PowerBi and Kusto Query.</li>
+                            <li> Conducted extensive research to identify the most relevant and actionable service metrics for engineering managers.</li>
+                                 </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2021</div>
+                            <h3>Software engineer - PIMCO, Newport beach, Ca</h3>
+                            <p>
+                                 <li>Leveraged Python to design and develop a sentiment analysis model for financial market insights, extracting valuable information about company products from a large-scale financial database. </li>
+                                 <li>Collaborated with project stakeholders, to deliver a tailored business model that addresses the unique needs and challenges of the finance industrys </li>
+                                </p>
+                        </div>
+                    </div>
+
+                
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <!-- <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti ex eos commodi
+                                quibusdam quos quas optio explicabo dolor repellendus.</p>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2019</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti ex eos commodi
+                                quibusdam quos quas optio explicabo dolor repellendus.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti ex eos commodi
+                                quibusdam quos quas optio explicabo dolor repellendus.</p>
+                        </div>
+                    </div> -->
+
+                    <!-- <span class="animate scroll" style="--i:6;"></span>
+                </div> -->
+            </div>
+        </div> 
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span> Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Projects<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021-2022</div>
+                            <h3>Effects of sentiment analysis on machine translation model -  Pennsylvania</h3>
+                            <p> Investigrated the effects of incorporating sentiment analysis into a machine translation model</div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2021</div>
+                            <h3>David's Project for peace - Zimbabwe </h3>
+                            <p>  Led a mental health program</div></div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Chatbot for mental health</h3>
+                            <p>Chatbot for mental health.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Effects of education</h3>
+                            <p>Lagim Tehi Tuma</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+            <!-- <span class="animate scroll" style="--i:1;"></span></h2> -->
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+
+                <!-- <span class="animate scroll" style="--i:3;"></span> -->
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+
+                <!-- <span class="animate scroll" style="--i:5;"></span> -->
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+
+                <!-- <span class="animate scroll" style="--i:7;"></span> -->
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+
+                <!-- <span class="animate scroll" style="--i:9;"></span> -->
+            </div>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Tinodiwanashe Nguruve.</p>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
 
 
+    <script src="js/script.js"></script>
+</body>
 
-<h2>Chatbot</h2>
-
-<h3>Artificial intelligence in healthcare</h3>
-
-  <h4>Passion: Creating Technologies that advances the society </h4>
-		
-		In this project, my goal is to build  an interactive chatbot using natural language processing toolkits and the python programming language. What inspired me was the ongoing bias in Zimbabwe that people don’t need therapy and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6734988/">here is the link to the article</a>. There are also poor detection rates due to poor health systems caused by the increasingly bad socioeconomic environment(Zimbabwe). What's more sad is that the suicide rates are going up during this
-		pandemic </p>
-		
-		<p>Background:</p>
-		<p>I partnered with healthcare Zimbabwe because the goal is for the  chatbot tobe  filled with psychologist-designed guided self-help paths, mood/health tracking, relaxation techniques, and community support. 
-		The ultimate goal is not to replace real doctors but to raise awareness on the issue. It is to offer a starting point for people who are not aware of mental health, provide a private, and stigma-free environment.
-		The bot is meant to help users normalize talking about mental health by sending daily reminder notifications, educating users on mental health issues, tracking moods, offering nearby  resources e.g. clinics, psychiatrists, therapy.
-		It also helps users narrow down the cause of their symptoms.</p>
-		
-				
-				
-				
-				
-				
-				
-				</article>
-
-	<!-- Contact -->
-		<article id="contact">
-			<h2 class="major">About</h2>
-			<ul class="icons">
-				<p>School: Bryn Mawr College</p>
-				<p>Year: Junior</p>
-				<p>Email: tnguruve@brynmawr.edu</p>
-				<li><a href="https://www.linkedin.com/in/tinodiwanashe-nguruve" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-				<li><a href="https://github.com/tnguruve" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-			</ul>
-		</article>
-
-	<!-- Elements -->
-		<article id="elements">
-			<h2 class="major">Elements</h2>
-
-			<section>
-				<h3 class="major">Text</h3>
-				<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-				This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-				This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-				<hr />
-				<h2>Heading Level 2</h2>
-				<h3>Heading Level 3</h3>
-				<h4>Heading Level 4</h4>
-				<h5>Heading Level 5</h5>
-				<h6>Heading Level 6</h6>
-				<hr />
-				<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; tinodiwanashe-nguruve. Design: <a href="https://html5up.net">HTML</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
